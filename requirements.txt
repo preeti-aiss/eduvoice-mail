@@ -1,0 +1,5 @@
+streamlit
+speechrecognition
+transformers
+huggingface_hub
+pyttsx3

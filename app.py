@@ -1,8 +1,5 @@
 
 
-# Commented out IPython magic to ensure Python compatibility.
-# # Save this in colab as app.py using magic command
- %%writefile app.py
  
 import streamlit as st
 from huggingface_hub import InferenceApi

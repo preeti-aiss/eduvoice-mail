@@ -1,10 +1,3 @@
-!pip install streamlit
-!pip install speechrecognition
-!pip install transformers
-!pip install huggingface_hub
-!pip install pyttsx3
-
-
 import streamlit as st
 from huggingface_hub import InferenceApi
 import speech_recognition as sr

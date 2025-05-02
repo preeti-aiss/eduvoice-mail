@@ -14,13 +14,13 @@ inference = InferenceApi(repo_id="gpt2", token=HF_API_KEY)
 def capture_voice():
  r = sr.Recognizer()
  with sr.Microphone() as source:
- st.info("Speak now...")
- audio = r.listen(source)
- try:
+  st.info("Speak now...")
+  audio = r.listen(source)
+  try:
           text = r.recognize_google(audio)
           st.success(f"You said: {text}")
           return text
- except:
+  except:
           st.error("Sorry, could not understand.")
           return ""
  

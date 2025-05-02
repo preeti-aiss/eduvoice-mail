@@ -9,7 +9,7 @@ from email.message import EmailMessage
 # Hugging Face API setup
 HF_API_KEY = "your_huggingface_api_key"
 
-inference = InferenceApi(repo_id="google/flan-t5-small", token=HF_API_KEY)
+
 try:
     inference = InferenceApi(repo_id="google/flan-t5-small", token=HF_API_KEY)
     response = inference(inputs="Your input text here.")
